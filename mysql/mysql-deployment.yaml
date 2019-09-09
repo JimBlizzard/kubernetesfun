@@ -1,6 +1,7 @@
 # mysql/mysql-deployment.yaml 
 # note that this uses a hard-coded password for the db server. 
 # should use a secret in real life. see https://kubernetes.io/docs/concepts/configuration/secret/
+# kubectl apply -f https://raw.githubusercontent.com/JimBlizzard/kubernetesfun/master/mysql/mysql-deployment.yaml
 
 apiVersion: v1
 kind: Service
