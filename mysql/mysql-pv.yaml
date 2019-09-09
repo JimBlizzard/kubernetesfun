@@ -1,4 +1,6 @@
 # application/mysql/mysql-pv.yaml 
+# kubectl apply -f https://raw.githubusercontent.com/JimBlizzard/kubernetesfun/master/mysql/mysql-pv.yaml
+
 
 apiVersion: v1
 kind: PersistentVolume
